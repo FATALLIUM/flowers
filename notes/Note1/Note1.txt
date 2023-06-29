@@ -1,0 +1,191 @@
+Script points/extra additions:
+[Sequence] Once upon a time, in a world beyond our own…\n...a fateful encounter awakened dormant powers and opened the door to a forgotten realm.
+You meet the Old Willow. He tells you of what happened to the Hollowed Gardens. He introduces your quest to collect the four flowers to heal the Gardens.
+Hrm, why, hello, little sapling. Where have you come from?
+… A book? How curious. You seek the path home, correct?
+Unfortunately, I have no power left to aid you. Much of the rot has eaten away my roots…
+However, if you reawaken my masters from their sleep, they may have the power to help you get home.
+Do you accept this quest?
+[Nod]
+Thank you, little sapling. I am indebted to you, as is the whole of the Hollowed Gardens.
+[Shake head]
+I see. I understand. The burden of such a quest is top much for a child. Nonetheless, stay safe.
+[Pat mustache]
+
+
+If you ever come across a silver flower, please pick it up. When you reach the ends of the meadows, place the flowers under the glass cases.
+Welcome to the Hollowed Gardens, little sapling.
+Hrmm. Do you need anything, little sapling?
+[Pat mustache]
+Ohoho! That tickles.
+Don't pull on my leaves, child!
+Oof!
+(If you have bothered Old Willow at least five times) -> Hrm, you seem fascinated by my mustache. Would you like a mustache of your own?
+Take a few of my leaves and stick them under your nose. (You now have a leaf-stache).
+[Ask about the Hollowed Gardens]
+Hrm.
+[Ask about his past]
+
+
+You meet Meera and she wants you to get her a blue flower. In return, she tells you of the ruins that may have the flower. 
+Who are you?
+You meet Bramble and he tells you of the weird noises he heard at night near the ruins entrance. He also tells you of how he and other beings are ghosts unable to rest after the cataclysmic event.
+Gah.
+You can enter Bramble's little cave. It's warm inside.
+
+
+In the forest solace room:
+The water:
+Murky water. You shouldn't drink it.
+The sound of water soothes you.
+The tombstone says:
+Ill-fated and cruelty evaded.
+Here lies the ___ of ___.
+The forest statue: 
+A lone statue that cries dust.
+A statue amongst statues. Dust, dust, dust. 
+Why is it staring at you?
+A statue. 
+After you collect the flower in the forest and enter the ruins…
+Ruins inscriptions (Death):
+The thread of life flourished under the watchful eyes of three.
+Death.
+Sub Mortis Oculo.
+Blessed be the mortal plane, guided by thy hand. 
+Under the molten skull, melt the ashen.
+You meet Moss who will tell you information after you have found their "literature" book (in the Armory room).
+Moss' book: An orange-bound book. You probably shouldn't open it.
+Wah!
+They tell you of how there were shadows that crawl along the broken walls of the ruins. The shadows were the one to take their book.
+In the next room, you meet Mort, who tells you of the three missing deities. Their memory is missing after the cataclysmic event so you have to discover the rest yourself through the inscriptions.
+Mrr?
+After Mort is the Armory room. There are broken weapons all around, rusted and dull. There is an inscription that reads: To protect the Hollowed; protect the sun, the moon, and the stars. There is a death statue: An solid statue that emits a passing solemnity.
+After the Armory room is the first solace room. The inscription says:
+Death welcomes all.
+The symbols says:
+The cheese comes last.  Eat your vegetables, children. And be kind.
+Kind vegetables.
+The death statue says:
+It stares into the void. 
+Broken, worn, tired, drained.
+Discord sowed it.
+You go through the maze and enter the second solace room (seer).
+Seer statue:
+<__>! I've figured it out, the formula to ___!
+We can finally rid our mortal disease of-
+… the rest is static.
+Inscription:
+They have tread too far. Arrogance meets its end.
+You have to find the five gems for the final room in the ruins. 
+You enter the cathedral…
+Cathedral inscriptions (Order):
+Order.
+The balance of the essence shall not be disturbed.
+Equilibrium. Do not disturb it.
+Take the sky under. Breach not the eyes, but the soul. Cleanse the heart within.
+Bow under the pale glow of the true Order.
+Ordo Obtinet.
+The scales are tipped. Chaos ensues. All is laid to dust… even me. 
+The first room of the cathedral…
+You encounter Echo, a ghost who wanders the empty halls. They speak of their loneliness. 
+…
+After Echo is the second room. You must pass through the rushing water by using the stepping stones.
+You meet Solstice here. She is a pigeon. She is visiting her family from another land.
+Ah! Who are you!?!?!?
+Erm, oh, sorry, I'm Solstice. I'm visiting from another land, but I got lost…
+Anyway! Do you think there's something wrong with this place? There's this suffocating atmosphere…
+There's this bee that keeps talking to me. Do you think he's okay? I've seen him talk to inanimate rocks…
+Ah! Sorry, you scared me again… I'm always such a scaredy-pigeon. Do you think it's pathetic?
+[Nod]
+O-oh… Maybe that's why other pigeons shun me…
+Not to worry! I'll try to be more brave!
+[Shake head]
+R-really? You don't think I'm pitiful? That means a lot to me, because most pigeons say that I'm a real bad scaredy-pigeon…
+Next is the Archives. It is filled with books, parchments, and inscriptions. There is an order statue. 
+The order statue says:
+Feast on the richness of knowledge.
+Only a few books can be read. They speak of literature, the deities, and of swimming.
+Seeds of Stepping Stones
+The stepping stone was named Gary. Gary loved being stepped on. Something was wrong with Gary, because other stepping stones felt otherwise about being stepped on.
+Perhaps Gary was a special case. Perhaps Gary needed a friend. Perhaps Gary needed a therapist because his mother stepped on him at birth. 
+History of Hollowed Gardens
+Year 20XX, the year when the three hollowed hills were not hallowed anymore.
+Three deities emerged from three curious sprouts, grown from seeds of starlight.
+The first deity was ___.
+The second, ___.
+The final, ___.
+…
+For some reason, the names are scratched out.
+How to Swim 202
+Step 1. Drown.
+One of the parchment paper is a piece of the formulae. Some of it is indecipherable.
+… the essence of an innocent soul drained and embalmed. 
+Mix with algernic leaves and philser flour.
+… The rest are covered with angrily scribbles.
+Another parchment paper is a letter from a Discordant to their lover.
+Beloved ___, I hope that you are safe- for much of the land has been corrupted with rot.
+I beg you to please forgive me for everything. My intentions that were once pure became twisted in my search for ___.
+… The rest is smudged with a dark substance. 
+The third parchment paper is a scientific paper of the 'cure' and its side-effects. 
+The formulae of ___. Caution: there may be side-effects such as mood swings, anxiety, and possibly the cooling of one's soul– The rest is cut off.
+You must go through the mirror room to leave the Archives and into the mirror room. 
+There is a bloody inscription in the room as well as a ruined statue. You meet Qwerty here. They are a bright blue rock.
+The inscription says:
+With tainted blood comes the discord of a thousand hells.
+The ruined (deer) statue says:
+hdjd
+You are in the third room of the cathedral. There is a band of (three) small frogs. You must help them find their respective instrument in the room in order to pass.
+Frog 1:
+Frog 2:
+Frog 3:
+Next is the meadows entrance. A flower lies in front of the door.
+Meadows inscriptions:
+Life.
+In each ending, a new beginning lies.
+Life's eternal dance, under endless skies.
+Vivere. Floreo, Vigeo, Vigeo.
+In the gentle sway of grasses, the heartbeat of life echoes under my arms.
+The littlest beings are the greatest of stars.
+Beeston is in the first room of the meadows. He tells you of his daily life as the great Beeston. It's not really that important.
+I am Beeston! Okay, my name is actually Beefred, but Beeston sounds so much cooler, don't you think?
+You are given the option to agree or disagree.
+[Nod]
+Of course you agree! All three of my cousins have the same name as well.
+[Shake head]
+What! How dare you! I'm telling my mom.
+Everyday, I smell the flowers, you know? 'Cuz I'm a bee. I got here yesterday, and wow! Everything outside of the meadows is like, dead!
+Whatcha up to? I'm doing pollen.
+Buzzing.
+I hear this real sad harp sometimes, but I can't seem to pinpoint whete it's coming from!
+Do you think yellow brings out my eyes?
+The flowers here kinda taste sad. Do you like to eat flowers?
+[You like moss]
+What! I can't say I know what moss tastes like… I feel like you're not the first person like to eat moss.
+[You like dirt]
+Dirt!? That's disgusting! It's so earthy, and dry, and tasteless! You have a peasant's palate.
+Wanna buzz together? -> Buzzing dance ensues.
+There are flowers and broken walls of stone. It's quiet and peaceful, as if the Discord had not ravaged this part of the Gardens.
+The next room is the center of the meadows. There are several NPCs chilling around. Nimbus is sitting under a tree with a harp.
+Speak to Nimbus the ghost and he will sing a little tune.
+Ah, hello, child. Would you like to 
+Regal the painting floats somewhere near Nimbus. Regal is a chill guy, a painting that came to life due to the twisted magic of the Discordants. 
+There is a paper airplane named Goose. They are an easter egg.
+In the next room is the second room. This one is rather small and there is simply an ominous eye on the floor.
+You don't belong here.
+The next room is the withered room. There is only one NPC here. It's Peri.
+She tells you of a weird humming in the mirror room which is north to the withered room.
+There is a solace room to the west of the withered room.
+There is simply a small sprout in a room of white.
+The room after the withered room is a normal room. Beeston is chilling near a pond. There is a pond and several animal statues.
+Beyond this room is the room of futility. It's dark and eerie. At the end of the room is the final flower.
+The final room comes next. It is the resting area of the three deities.
+The room is just white, with colored plants and grass growing all over the place. 
+You must place one flower for each deity.
+ The remaining flower must be given to the shadow in the background.
+After you do this, the shadow fades away along with the flower.
+The three deities wake up and give you their thanks. You are given an owlet named Humbert.
+Before anything else happens, you wake up under the tree where you had found the book.
+Was it all a dream?
+…
+You hear a hooting in the distance.
+May the Gardens flourish once more.
