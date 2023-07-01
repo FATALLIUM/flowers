@@ -94,7 +94,6 @@
     {"id":{"name":"forestDullFlowers_spr","path":"sprites/forestDullFlowers_spr/forestDullFlowers_spr.yy",},"order":16,},
     {"id":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"order":11,},
     {"id":{"name":"cathedralWater2_spr","path":"sprites/cathedralWater2_spr/cathedralWater2_spr.yy",},"order":16,},
-    {"id":{"name":"meadowsFloor_spr","path":"sprites/meadowsFloor_spr/meadowsFloor_spr.yy",},"order":4,},
     {"id":{"name":"ruinsMoss_spr","path":"sprites/ruinsMoss_spr/ruinsMoss_spr.yy",},"order":9,},
     {"id":{"name":"leverOff","path":"sprites/leverOff/leverOff.yy",},"order":1,},
     {"id":{"name":"cathedralPillar1_spr","path":"sprites/cathedralPillar1_spr/cathedralPillar1_spr.yy",},"order":6,},
