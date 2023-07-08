@@ -1,103 +1,117 @@
 /// @param _room
 /// @param _song
 function scr_music() {
+	audio_pause_all();
 	switch (room) {
+		//	FOREST
 		case forestBeginning:
-			if (audio_is_playing(pile_of_memories1_snd)) {
-				audio_stop_sound(pile_of_memories1_snd);
+			var song = pile_of_memories1_snd
+			if (audio_is_paused(song)) {
+				audio_resume_sound(song);
 			}
 			else {
-				audio_play_sound(pile_of_memories1_snd, 1, true);
+				audio_play_sound(song, 1, true);
 			}
 			break;
 			
 		case forestCave:
-			if (audio_is_playing(pile_of_memories1_snd)) {
-				audio_stop_sound(pile_of_memories1_snd);
+			var song = pile_of_memories1_snd;
+			if (audio_is_paused(song)) {
+				audio_resume_sound(song);
 			}
 			else {
-				audio_play_sound(pile_of_memories1_snd, 1, true);
+				audio_play_sound(song, 1, true);
 			}
 			break;
 			
 		case forestRuinEntrance:
-			if (audio_is_playing(Man_humming)) {
-				audio_stop_sound(Man_humming);
+			var song = Man_humming;
+			if (audio_is_paused(song)) {
+				audio_resume_sound(song);
 			}
 			else {
-				audio_play_sound(Man_humming, 1, true);
+				audio_play_sound(song, 1, true);
 			}
 			break;
 			
 		case forestSecond:
-			if (audio_is_playing(pile_of_memories1_snd)) {
-				audio_stop_sound(pile_of_memories1_snd);
+			var song = pile_of_memories1_snd;
+			if (audio_is_paused(song)) {
+				audio_resume_sound(song);
 			}
 			else {
-				audio_play_sound(pile_of_memories1_snd, 1, true);
+				audio_play_sound(song, 1, true);
 			}
 			break;
 			
 		case forestSolace:
-			if (audio_is_playing(daisies_snd)) {
-				audio_stop_sound(daisies_snd);
+			var song = daisies_snd
+			if (audio_is_paused(song)) {
+				audio_resume_sound(song);
 			}
 			else {
-				audio_play_sound(daisies_snd, 1, true);
+				audio_play_sound(song, 1, true);
 			}
 			break;
 			
 		case forestThird:
-			if (audio_is_playing(pile_of_memories1_snd)) {
-				audio_stop_sound(pile_of_memories1_snd);
+			var song = pile_of_memories1_snd;
+			if (audio_is_paused(song)) {
+				audio_resume_sound(song);
 			}
 			else {
-				audio_play_sound(pile_of_memories1_snd, 1, true);
+				audio_play_sound(song, 1, true);
 			}
 			break;
-			
+		
+		// RUINS
 		case ruinsArmory:
-			if (audio_is_playing(I_Have_This_Flower_And_I_Want_To_Eat_It_snd)) {
-				audio_stop_sound(I_Have_This_Flower_And_I_Want_To_Eat_It_snd);
+			var song = I_Have_This_Flower_And_I_Want_To_Eat_It_snd;
+			if (audio_is_paused(song)) {
+				audio_resume_sound(song);
 			}
 			else {
-				audio_play_sound(I_Have_This_Flower_And_I_Want_To_Eat_It_snd, 1, true);
+				audio_play_sound(song, 1, true);
 			}
 			break;
 	
 		case ruinsBeginning:
-			if (audio_is_playing(I_Have_This_Flower_And_I_Want_To_Eat_It_snd)) {
-				audio_stop_sound(I_Have_This_Flower_And_I_Want_To_Eat_It_snd);
+			var song = I_Have_This_Flower_And_I_Want_To_Eat_It_snd;
+			if (audio_is_paused(song)) {
+				audio_resume_sound(song);
 			}
 			else {
-				audio_play_sound(I_Have_This_Flower_And_I_Want_To_Eat_It_snd, 1, true);
+				audio_play_sound(song, 1, true);
 			}
 			break;
 			
 		case ruinsCathedralEntrance:
-			if (audio_is_playing(green_fields_snd)) {
-				audio_stop_sound(green_fields_snd);
+			var song = green_fields_snd;
+			if (audio_is_paused(song)) {
+				audio_resume_sound(song);
 			}
 			else {
-				audio_play_sound(green_fields_snd, 1, true);
+				audio_play_sound(song, 1, true);
 			}
 			break;
 			
 		case ruinsMaze:
-			if (audio_is_playing(stardusted_snd)) {
-				audio_stop_sound(stardusted_snd);
+			var song = stardusted_snd;
+			if (audio_is_paused(song)) {
+				audio_resume_sound(song);
 			}
 			else {
-				audio_play_sound(stardusted_snd, 1, true);
+				audio_play_sound(song, 1, true);
 			}
 			break;
 			
 		case ruinsSecond:
-			if (audio_is_playing(I_Have_This_Flower_And_I_Want_To_Eat_It_snd)) {
-				audio_stop_sound(I_Have_This_Flower_And_I_Want_To_Eat_It_snd);
+			var song = I_Have_This_Flower_And_I_Want_To_Eat_It_snd;
+			if (audio_is_paused(song)) {
+				audio_resume_sound(song);
 			}
 			else {
-				audio_play_sound(I_Have_This_Flower_And_I_Want_To_Eat_It_snd, 1, true);
+				audio_play_sound(song, 1, true);
 			}
 			break;
 			
@@ -105,183 +119,208 @@ function scr_music() {
 			break;
 
 		case ruinsSolace:
-			if (audio_is_playing(stardusted_snd)) {
-				audio_stop_sound(stardusted_snd);
+			var song = stardusted_snd;
+			if (audio_is_paused(song)) {
+				audio_resume_sound(song);
 			}
 			else {
-				audio_play_sound(stardusted_snd, 1, true);
+				audio_play_sound(song, 1, true);
 			}
 			break;
 			
 		case ruinsThird:
-			if (audio_is_playing(I_Have_This_Flower_And_I_Want_To_Eat_It_snd)) {
-				audio_stop_sound(I_Have_This_Flower_And_I_Want_To_Eat_It_snd);
+			var song = I_Have_This_Flower_And_I_Want_To_Eat_It_snd;
+			if (audio_is_paused(song)) {
+				audio_resume_sound(song);
 			}
 			else {
-				audio_play_sound(I_Have_This_Flower_And_I_Want_To_Eat_It_snd, 1, true);
+				audio_play_sound(song, 1, true);
 			}
 			break;
-			
+		
+		// CATHEDRAL
 		case cathedralArchivesRoom:
-			if (audio_is_playing(lonely_night_snd)) {
-				audio_stop_sound(lonely_night_snd);
+			var song = lonely_night_snd;
+			if (audio_is_paused(song)) {
+				audio_resume_sound(song);
 			}
 			else {
-				audio_play_sound(lonely_night_snd, 1, true);
+				audio_play_sound(song, 1, true);
 			}
 			break;
 			
 		case cathedralArchivesContRoom:
-			if (audio_is_playing(lonely_night_snd)) {
-				audio_stop_sound(lonely_night_snd);
+			var song = my_lost_star;
+			if (audio_is_paused(song)) {
+				audio_resume_sound(song);
 			}
 			else {
-				audio_play_sound(lonely_night_snd, 1, true);
+				audio_play_sound(song, 1, true);
 			}
 			break;
 			
 		case cathedralBeginning:
-			if (audio_is_playing(hall_snd)) {
-				audio_stop_sound(hall_snd);
+			var song = hall_snd;
+			if (audio_is_paused(song)) {
+				audio_resume_sound(song);
 			}
 			else {
-				audio_play_sound(hall_snd, 1, true);
+				audio_play_sound(song, 1, true);
 			}
 			break;
 			
 		case cathedralHiddenRoom:
-			if (audio_is_playing(ketchup_In_Waiting_snd)) {
-				audio_stop_sound(ketchup_In_Waiting_snd);
+			var song = ketchup_In_Waiting_snd;
+			if (audio_is_paused(song)) {
+				audio_resume_sound(song);
 			}
 			else {
-				audio_play_sound(ketchup_In_Waiting_snd, 1, true);
+				audio_play_sound(song, 1, true);
 			}
 			break;
 			
 		case cathedralInscriptionRoom:
-			if (audio_is_playing(lonely_night_snd)) {
-				audio_stop_sound(lonely_night_snd);
+			var song = lonely_night_snd;
+			if (audio_is_paused(song)) {
+				audio_resume_sound(song);
 			}
 			else {
-				audio_play_sound(lonely_night_snd, 1, true);
+				audio_play_sound(song, 1, true);
 			}
 			break;
 			
 		case cathedralMeadowsEntrance:
-			if (audio_is_playing(pile_of_memories_snd)) {
-				audio_stop_sound(pile_of_memories_snd);
+			var song = pile_of_memories_snd;
+			if (audio_is_paused(song)) {
+				audio_resume_sound(song);
 			}
 			else {
-				audio_play_sound(pile_of_memories_snd, 1, true);
+				audio_play_sound(song, 1, true);
 			}
 			break;
 			
 		case cathedralSecond:
-			if (audio_is_playing(hall_snd)) {
-				audio_stop_sound(hall_snd);
+			var song = hall_snd;
+			if (audio_is_paused(song)) {
+				audio_resume_sound(song);
 			}
 			else {
-				audio_play_sound(hall_snd, 1, true);
+				audio_play_sound(song, 1, true);
 			}
 			break;
 		
 		case cathedralSolace:
-			if (audio_is_playing(lullaby_snd)) {
-				audio_stop_sound(lullaby_snd);
+			var song = lullaby_snd;
+			if (audio_is_paused(song)) {
+				audio_resume_sound(song);
 			}
 			else {
-				audio_play_sound(lullaby_snd, 1, true);
+				audio_play_sound(song, 1, true);
 			}
 			break;
 			
 		case cathedralThird:
-			if (audio_is_playing(lonely_night_snd)) {
-				audio_stop_sound(lonely_night_snd);
+			var song = Waiting_For_You_To_Pick_Up_The_Phone;
+			if (audio_is_paused(song)) {
+				audio_resume_sound(song);
 			}
 			else {
-				audio_play_sound(lonely_night_snd, 1, true);
+				audio_play_sound(song, 1, true);
 			}
 			break;
 			
+		// MEADOWS	
 		case meadowsBeginning:
-			if (audio_is_playing(waking_melody_snd)) {
-				audio_stop_sound(waking_melody_snd);
+			var song = waking_melody_snd;
+			if (audio_is_paused(song)) {
+				audio_resume_sound(song);
 			}
 			else {
-				audio_play_sound(waking_melody_snd, 1, true);
+				audio_play_sound(song, 1, true);
 			}
 			break;
 		
 		case meadowsFourth:
-			if (audio_is_playing(wilting_snd)) {
-				audio_stop_sound(wilting_snd);
+			var song = wilting_snd;
+			if (audio_is_paused(song)) {
+				audio_resume_sound(song);
 			}
 			else {
-				audio_play_sound(wilting_snd, 1, true);
+				audio_play_sound(song, 1, true);
 			}
 			break;
 			
 		case meadowsFutilityRoom:
-			if (audio_is_playing(waking_melody_snd)) {
-				audio_stop_sound(waking_melody_snd);
+			var song = waking_melody_snd;
+			if (audio_is_paused(song)) {
+				audio_resume_sound(song);
 			}
 			else {
-				audio_play_sound(waking_melody_snd, 1, true);
+				audio_play_sound(song, 1, true);
 			}
 			break;
 			
 		case meadowsSecond:
-			if (audio_is_playing(waking_melody_snd)) {
-				audio_stop_sound(waking_melody_snd);
+			var song = waking_melody_snd;
+			if (audio_is_paused(song)) {
+				audio_resume_sound(song);
 			}
 			else {
-				audio_play_sound(waking_melody_snd, 1, true);
+				audio_play_sound(song, 1, true);
 			}
 			break;
 		
 		case meadowsSolace:
-			if (audio_is_playing(flowering_snd)) {
-				audio_stop_sound(flowering_snd);
+			var song = flowering_snd;
+			if (audio_is_paused(song)) {
+				audio_resume_sound(song);
 			}
 			else {
-				audio_play_sound(flowering_snd, 1, true);
+				audio_play_sound(song, 1, true);
 			}
 			break;
 			
 		case meadowsSolaceTwo:
-			if (audio_is_playing(spring_time_snd)) {
-				audio_stop_sound(spring_time_snd);
+			var song = spring_time_snd;
+			if (audio_is_paused(song)) {
+				audio_resume_sound(song);
 			}
 			else {
-				audio_play_sound(spring_time_snd, 1, true);
+				audio_play_sound(song, 1, true);
 			}
 			break;
 			
 		case meadowsTempleHall:
-			if (audio_is_playing(dew)) {
-				audio_stop_sound(dew);
+			var song = dew;
+			if (audio_is_paused(song)) {
+				audio_resume_sound(song);
 			}
 			else {
-				audio_play_sound(dew, 1, true);
+				audio_play_sound(song, 1, true);
 			}
 			break;
 			
 		case meadowsTempleRoom:
-			if (audio_is_playing(dew)) {
-				audio_stop_sound(dew);
+			var song = dew;
+			if (audio_is_paused(song)) {
+				audio_resume_sound(song);
 			}
 			else {
-				audio_play_sound(dew, 1, true);
+				audio_play_sound(song, 1, true);
 			}
 			break;
 			
 		case meadowsThird:
-			if (audio_is_playing(spring_time_snd)) {
-				audio_stop_sound(spring_time_snd);
+			var song = spring_time_snd;
+			if (audio_is_paused(song)) {
+				audio_resume_sound(song);
 			}
 			else {
-				audio_play_sound(spring_time_snd, 1, true);
+				audio_play_sound(song, 1, true);
 			}
+			break;
+		
+		default:
 			break;
 	}
 }

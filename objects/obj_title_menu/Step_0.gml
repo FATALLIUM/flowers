@@ -1,3 +1,4 @@
+
 upKey = keyboard_check_pressed(ord ("W"));
 downKey = keyboard_check_pressed(ord ("S"));
 acceptKey = keyboard_check(ord ("F"));
@@ -11,13 +12,15 @@ if pos >= op_length {pos = 0}
 if pos < 0 {pos = op_length-1};
 
 // use menu
-if acceptKey {
+if acceptKey && !start {
 	var _sml = menuLevel;
 	
 	switch(menuLevel) {
 		case 0:
 			switch(pos) {
-				case 0: var seq = layer_sequence_create("Assets_1", x, y, theBeginning);
+				case 0:
+					start = true;
+					var seq = layer_sequence_create("Assets_1", x, y, theBeginning);
 					layer_sequence_play(seq);
 					break;
 				case 1: menuLevel = 1; break;

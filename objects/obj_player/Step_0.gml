@@ -54,6 +54,11 @@ if xSpd == 0 && ySpd == 0 {
 	image_index = 0;
 }
 
-
+if (room == yourRoom) {
+	sprite[RIGHT] = spr_player1_right;
+	sprite[UP] = spr_player1_up;
+	sprite[LEFT] = spr_player1_left;
+	sprite[DOWN] = spr_player1_down;
+}
 // depth
 depth = -bbox_bottom;
