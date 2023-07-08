@@ -1,2 +1,2 @@
 _text_Id = "";
-distanceTrigger = 2;
+distanceTrigger = 4;

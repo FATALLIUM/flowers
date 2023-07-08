@@ -165,7 +165,7 @@ if speakerSprite[page] != noone {
 // options /////////////////////////////////
 if drawChar == textLength[page] && page == pageNum -1 {
 	// option selection
-	optionPos += keyboard_check_pressed(vk_down) - keyboard_check_pressed(vk_up);
+	optionPos += keyboard_check_pressed(ord ("W")) - keyboard_check_pressed(ord ("S"));
 	optionPos = clamp(optionPos, 0, optionNum - 1);
 	// options box
 	var	_opSpace = 20;
@@ -174,11 +174,11 @@ if drawChar == textLength[page] && page == pageNum -1 {
 			// option box
 			// draw arrow
 			if optionPos == op {
-				draw_sprite(spr_textbox_arrow, 0, _textboxX-100, _textboxY - _opSpace*optionNum - _opSpace*op - 10);
+				draw_sprite(spr_textbox_arrow, 0, _textboxX-100, _textboxY - _opSpace*optionNum - _opSpace*op);
 			}
 		draw_sprite(spr_options,0, _textboxX, _textboxY - _opSpace*optionNum - _opSpace*op-11);
 		// option text
-		draw_text(_textboxX - _opBorder-25, _textboxY - _opSpace*optionNum - _opSpace*op - 10, option[op]);
+		draw_text(_textboxX - _opBorder-30, _textboxY - _opSpace*optionNum - _opSpace*op - 10, option[op]);
 		}
 	}
 	

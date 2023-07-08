@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "steppingStone_obj",
   "spriteId": {
-    "name": "cathedralSteppingStone_spr",
-    "path": "sprites/cathedralSteppingStone_spr/cathedralSteppingStone_spr.yy",
+    "name": "cathedralSteppingEye_spr",
+    "path": "sprites/cathedralSteppingEye_spr/cathedralSteppingEye_spr.yy",
   },
   "solid": false,
   "visible": true,

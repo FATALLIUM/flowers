@@ -17,7 +17,9 @@ if acceptKey {
 	switch(menuLevel) {
 		case 0:
 			switch(pos) {
-				case 0: room_goto(forestBeginning); break;
+				case 0: var seq = layer_sequence_create("Assets_1", x, y, theBeginning);
+					layer_sequence_play(seq);
+					break;
 				case 1: menuLevel = 1; break;
 				case 2: game_end(); break;
 				}

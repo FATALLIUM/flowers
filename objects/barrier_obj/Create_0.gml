@@ -1,0 +1,2 @@
+cleansed = false;
+barrierName = "";

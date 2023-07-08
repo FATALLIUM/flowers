@@ -20,7 +20,6 @@
   ],
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_602707E7","properties":[],"isDnd":false,"objectId":{"name":"obj_settings","path":"objects/obj_settings/obj_settings.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":{"name":"inst_602707E7","path":"rooms/Room2/Room2.yy",},"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-34.0,"y":25.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_78A67393","properties":[],"isDnd":false,"objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.140625,"scaleY":6.2968745,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-9.0,"y":0.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_797C6A02","properties":[],"isDnd":false,"objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.140625,"scaleY":6.2968745,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":400.0,"y":0.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3723F9E8","properties":[],"isDnd":false,"objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":6.4765625,"scaleY":0.140625,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-10.0,"y":-12.0,},
@@ -29,6 +28,9 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7A6471BD","properties":[],"isDnd":false,"objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.484375,"scaleY":0.1875,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":259.0,"y":218.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5FD43E98","properties":[],"isDnd":false,"objectId":{"name":"obj_warp_block","path":"objects/obj_warp_block/obj_warp_block.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.359375,"scaleY":0.46875,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":217.0,"y":397.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2E39D3EA","properties":[],"isDnd":false,"objectId":{"name":"obj_warp_block","path":"objects/obj_warp_block/obj_warp_block.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.390625,"scaleY":0.515625,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":214.5,"y":-28.5,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_172B4F3D","properties":[],"isDnd":false,"objectId":{"name":"obj_speakBlock","path":"objects/obj_speakBlock/obj_speakBlock.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.6875,"scaleY":3.531249,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":57.0,"y":145.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_29D97C67","properties":[],"isDnd":false,"objectId":{"name":"obj_speakBlock","path":"objects/obj_speakBlock/obj_speakBlock.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.6875,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":304.0,"y":110.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2CA493","properties":[],"isDnd":false,"objectId":{"name":"obj_speakBlock","path":"objects/obj_speakBlock/obj_speakBlock.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":2.5,"scaleY":1.875,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":256.0,"y":210.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"assets","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_6BEA93F9","spriteId":{"name":"meadowsPinkFlower_spr","path":"sprites/meadowsPinkFlower_spr/meadowsPinkFlower_spr.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":2.0,"scaleY":2.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":86.0,"y":218.0,},
@@ -102,10 +104,9 @@
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","spriteId":null,"colour":4278190080,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":15.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":false,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":true,"inheritLayerSettings":true,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
   ],
   "inheritLayers": true,
-  "creationCodeFile": "${project_dir}/rooms/Room2/RoomCreationCode.gml",
-  "inheritCode": true,
+  "creationCodeFile": "${project_dir}/rooms/meadowsSolaceTwo/RoomCreationCode.gml",
+  "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_602707E7","path":"rooms/meadowsSolaceTwo/meadowsSolaceTwo.yy",},
     {"name":"inst_4844FDF8","path":"rooms/meadowsSolaceTwo/meadowsSolaceTwo.yy",},
     {"name":"inst_16A701A5","path":"rooms/meadowsSolaceTwo/meadowsSolaceTwo.yy",},
     {"name":"inst_4EAABCF5","path":"rooms/meadowsSolaceTwo/meadowsSolaceTwo.yy",},
@@ -136,6 +137,9 @@
     {"name":"inst_7A6471BD","path":"rooms/meadowsSolaceTwo/meadowsSolaceTwo.yy",},
     {"name":"inst_5FD43E98","path":"rooms/meadowsSolaceTwo/meadowsSolaceTwo.yy",},
     {"name":"inst_2E39D3EA","path":"rooms/meadowsSolaceTwo/meadowsSolaceTwo.yy",},
+    {"name":"inst_172B4F3D","path":"rooms/meadowsSolaceTwo/meadowsSolaceTwo.yy",},
+    {"name":"inst_29D97C67","path":"rooms/meadowsSolaceTwo/meadowsSolaceTwo.yy",},
+    {"name":"inst_2CA493","path":"rooms/meadowsSolaceTwo/meadowsSolaceTwo.yy",},
   ],
   "inheritCreationOrder": true,
   "sequenceId": null,

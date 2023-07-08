@@ -1,46 +1,9 @@
 
 function leverPuzzleManager(_puzzle_Id, _lever_Id, _active) {
-
 	switch (_puzzle_Id) {
-		// practice puzzle
-		case "puzzleOne":
-			if (global.leverPuzzles < 4) {
-				switch (_lever_Id) {
-					case "one":
-						if (_active) {global.leverPuzzles++;}
-						else {global.leverPuzzles -= 1;}
-						break;
-					case "two":
-						if (_active) {global.leverPuzzles++;}
-						else {global.leverPuzzles -= 1;}
-						break;
-					case "three":
-						if (_active) {global.leverPuzzles++;}
-						else {global.leverPuzzles -= 1;}
-						break;
-					case "four":
-						if (_active) {global.leverPuzzles++;}
-						else {global.leverPuzzles -= 1;}
-						break;
-					default:
-						break;
-				}
-			}
-			if (!obj_lever.solved && global.leverPuzzles == 4 && global.solved == 0) {
-				show_message("1 solved");
-				var inst = instance_create_layer(357,127, "Instances", obj_puzzleItem);
-					with (inst) {
-						sprite_index = test_spr;
-					}
-				global.leverPuzzles = 0;
-				global.solved++;
-				obj_lever.solved = true;
-				}	
-			break;
-			
 		// statue puzzle practice
 		case "statuePuzzle":
-			if (global.solved == 0) {
+			if (global.solved == 2) {
 				if (obj_puzzleManager.puzzleListSize != 3) {
 					obj_puzzleManager.puzzleList[obj_puzzleManager.puzzleListSize] = _lever_Id;
 					obj_puzzleManager.puzzleListSize++;
@@ -49,27 +12,55 @@ function leverPuzzleManager(_puzzle_Id, _lever_Id, _active) {
 			break;
 			
 		// forest lever
-				
-		// meera fetch quest
+		case "firstForestPuzzle":
+			if (global.solved != 1 && _lever_Id == "forestLever" && _active) {
+				global.solved++;
+				updateLeverSolved(_puzzle_Id, true);
+			}
+			break;
 			
-		// tree puzzle
-		
-		// moss fetch quest
-		
-		// diamond door
-		
-		// frogs quest
-		
-		// statue meadows
-		
-		// riddle
-		
-		// five-lever puzzle
-			
-			
-			
+		// five lever puzzle
+		case "fiveLeverPuzzle":
+			if (global.solved != 4) {
+			switch (_lever_Id) {
+				case "lv1":
+					obj_puzzleManager.puzzleLever[0] = _active;
+					break;
+				case "lv2":
+					obj_puzzleManager.puzzleLever[1] = _active;
+					break;
+				case "lv3":
+					obj_puzzleManager.puzzleLever[2] = _active;
+					break;
+				case "lv4":
+					obj_puzzleManager.puzzleLever[3] = _active;
+					break;
+				default:
+					break;
+				}
+			}
+			break;
 		default:
 			break;
 	}
 }
 
+// setters
+function updateLeverSolved(_puzzle_Id, _solved) {
+	for (var i = 0; i < instance_number(obj_lever); i++) {
+		var inst = instance_find(obj_lever, i);
+		if (inst._puzzle_Id == _puzzle_Id) {
+			inst.solved = _solved;
+		}
+	}
+}
+
+function updateBarrier(_barrier_Id, _state) {
+	for (var i = 0; i < instance_number(barrier_obj); i++) {
+		var inst = instance_find(barrier_obj, i);
+		if (inst.barrierName == _barrier_Id) {
+			audio_play_sound(achievmentBell_snd, 3, 0);
+			inst.cleansed = _state;
+		}
+	}
+}

@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_par_npc",
-    "path": "objects/obj_par_npc/obj_par_npc.yy",
+    "name": "glass_obj",
+    "path": "objects/glass_obj/glass_obj.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,

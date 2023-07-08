@@ -77,7 +77,6 @@ function scr_text(_text) {
 function scr_options(_option, _linkId) {
 	option[optionNum] = _option;
 	optionLinkId[optionNum] = _linkId;
-	
 	optionNum++;
 }
 
@@ -85,8 +84,8 @@ function scr_options(_option, _linkId) {
 
 
 /// @param text_Id
-function createTextbox(_text_Id, _x, _y) {
+function createTextbox(_text_Id) {
 	with instance_create_depth(0,0,-1000, obj_textbox) {
-		scr_gameText(_text_Id, _x, _y);
+		scr_gameText(_text_Id);
 	} 
 }

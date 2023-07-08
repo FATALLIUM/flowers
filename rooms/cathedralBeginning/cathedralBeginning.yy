@@ -9,7 +9,7 @@
     "path": "rooms/cathedralSecond/cathedralSecond.yy",
   },
   "views": [
-    {"inherit":false,"visible":true,"xview":0,"yview":0,"wview":400,"hview":400,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":200,"vborder":127,"hspeed":-1,"vspeed":-1,"objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"inherit":false,"visible":true,"xview":0,"yview":0,"wview":400,"hview":255,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":200,"vborder":127,"hspeed":-1,"vspeed":-1,"objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"inherit":true,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":true,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":true,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
@@ -20,10 +20,11 @@
   ],
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_602707E7","properties":[],"isDnd":false,"objectId":{"name":"obj_settings","path":"objects/obj_settings/obj_settings.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":{"name":"inst_602707E7","path":"rooms/Room2/Room2.yy",},"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-34.0,"y":25.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_51C51CDE","properties":[],"isDnd":false,"objectId":{"name":"echo_npc","path":"objects/echo_npc/echo_npc.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.0,"scaleY":2.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":234.0,"y":85.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_128F7CB6","properties":[],"isDnd":false,"objectId":{"name":"obj_warp_block","path":"objects/obj_warp_block/obj_warp_block.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":0.296875,"scaleY":1.59375,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":393.0,"y":114.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_12BBBA6","properties":[],"isDnd":false,"objectId":{"name":"obj_warp_block","path":"objects/obj_warp_block/obj_warp_block.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.296875,"scaleY":1.59375,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-12.0,"y":121.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4CEA985A","properties":[],"isDnd":false,"objectId":{"name":"obj_speakBlock","path":"objects/obj_speakBlock/obj_speakBlock.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":2.875,"scaleY":4.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":38.0,"y":69.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_277EE0DA","properties":[],"isDnd":false,"objectId":{"name":"obj_speakBlock","path":"objects/obj_speakBlock/obj_speakBlock.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.625,"scaleY":2.8125,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":244.0,"y":88.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritVisibility":false,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"back","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6E001AA5","properties":[],"isDnd":false,"objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":6.25,"scaleY":0.328125,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":93.0,},
@@ -73,15 +74,16 @@
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","spriteId":null,"colour":4278190080,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":15.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":false,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":true,"inheritLayerSettings":true,"inheritVisibility":false,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
   ],
   "inheritLayers": true,
-  "creationCodeFile": "${project_dir}/rooms/Room2/RoomCreationCode.gml",
+  "creationCodeFile": "${project_dir}/rooms/cathedralBeginning/RoomCreationCode.gml",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_602707E7","path":"rooms/cathedralBeginning/cathedralBeginning.yy",},
     {"name":"inst_51C51CDE","path":"rooms/cathedralBeginning/cathedralBeginning.yy",},
     {"name":"inst_6E001AA5","path":"rooms/cathedralBeginning/cathedralBeginning.yy",},
     {"name":"inst_3B79C3B9","path":"rooms/cathedralBeginning/cathedralBeginning.yy",},
     {"name":"inst_128F7CB6","path":"rooms/cathedralBeginning/cathedralBeginning.yy",},
     {"name":"inst_12BBBA6","path":"rooms/cathedralBeginning/cathedralBeginning.yy",},
+    {"name":"inst_4CEA985A","path":"rooms/cathedralBeginning/cathedralBeginning.yy",},
+    {"name":"inst_277EE0DA","path":"rooms/cathedralBeginning/cathedralBeginning.yy",},
   ],
   "inheritCreationOrder": true,
   "sequenceId": null,

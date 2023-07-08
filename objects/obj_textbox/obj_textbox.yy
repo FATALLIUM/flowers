@@ -8,7 +8,10 @@
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_pauser",
+    "path": "objects/obj_pauser/obj_pauser.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,

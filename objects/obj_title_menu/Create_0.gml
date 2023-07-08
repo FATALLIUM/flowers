@@ -1,9 +1,9 @@
 
-width = 100;
-height = 104;
+width = 100
+height = 100;
 
-op_border = 8;
-op_space = 16;
+op_border = 30;
+op_space = 40;
 
 pos = 0;
 
