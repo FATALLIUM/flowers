@@ -20,7 +20,6 @@
   ],
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_602707E7","properties":[],"isDnd":false,"objectId":{"name":"obj_settings","path":"objects/obj_settings/obj_settings.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-34.0,"y":25.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_74119898","properties":[],"isDnd":false,"objectId":{"name":"obj_speakBlock","path":"objects/obj_speakBlock/obj_speakBlock.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.25,"scaleY":1.6875,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":457.0,"y":329.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_39421CB9","properties":[],"isDnd":false,"objectId":{"name":"obj_speakBlock","path":"objects/obj_speakBlock/obj_speakBlock.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.5,"scaleY":1.3125,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":179.0,"y":284.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1CD1BE35","properties":[],"isDnd":false,"objectId":{"name":"obj_speakBlock","path":"objects/obj_speakBlock/obj_speakBlock.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":5.09375,"scaleY":2.375,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":75.0,"y":281.0,},
@@ -129,7 +128,6 @@
   "creationCodeFile": "${project_dir}/rooms/meadowsThird/RoomCreationCode.gml",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_602707E7","path":"rooms/meadowsThird/meadowsThird.yy",},
     {"name":"inst_66B07671","path":"rooms/meadowsThird/meadowsThird.yy",},
     {"name":"inst_7796C6F8","path":"rooms/meadowsThird/meadowsThird.yy",},
     {"name":"inst_A8D65E8","path":"rooms/meadowsThird/meadowsThird.yy",},

@@ -63,12 +63,13 @@ if (puzzleListSize == 3 && global.solved != 3) {
 	}
 }
 
-if (room == meadowsTempleRoom) {
+if (room == meadowsTempleRoom && global.solved != 5) {
 	if (deathGlass_obj.cleansed) {
 		if (lifeGlass_obj.cleansed) {
 			if (orderGlass_obj.cleansed) {
-				var seq = layer_sequence_create("Instances", x, y, theEnd);
-					layer_sequence_play(seq);
+				global.solved++;
+				audio_stop_all();
+				room_goto(test);
 			}
 		}
 	}

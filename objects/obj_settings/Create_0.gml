@@ -3,7 +3,7 @@ global.fontMain = FontMain;
 
 	// puzzles
 global.frogsInstruments = 0;
-global.flowers = 0;
+global.flowers = 3;
 global.shapes = 0;
 
 	// story additions

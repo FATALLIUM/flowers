@@ -16,7 +16,7 @@ function scr_setDefaultsForText() {
 	txtSpr[pageNum] = spr_textbox;
 	speakerSprite[pageNum] = noone;
 	speakerSide[pageNum] = 1;	
-//	snd[pageNum] = He;
+	snd[pageNum] = L;
 	
 }
 

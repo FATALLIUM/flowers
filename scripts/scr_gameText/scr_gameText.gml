@@ -917,7 +917,7 @@ function scr_gameText(_text_Id) {
 			break;
 					case "nimbusSong":
 						scr_text("");
-						audio_pause_sound(waking_melody_snd);
+						audio_pause_sound(spring_time_snd);
 						audio_play_sound(nimbusHarp, 5, 0);
 						break;
 					case "nimbusNoSong":
@@ -1302,7 +1302,7 @@ function scr_gameText(_text_Id) {
 			break;
 		case "bed":
 			scr_text("Your bed. Was... all of that a dream?");
-				scr_options("Go to bed (end game)", "rest");
+				scr_options("Go to bed (end game)", "goodNight");
 				scr_options("Not yet", "noRest");
 			break;
 		case "desk":
@@ -1323,8 +1323,16 @@ function scr_gameText(_text_Id) {
 		case "yourPlant":
 			scr_text("The best plant: Gerold.");
 			break;
-		case "rest":
-			scr_text("Good night.");
+		case "anEnding":
+			scr_text("Did... all of that truly happen?");
+			scr_text("Or were you dreaming?");
+			scr_text("If that were a dream... what a wonderful dream it was.");
+			break;
+		case "dream?":
+			scr_text("!");
+			break;
+		case "goodNight":
+			game_end();
 			break;
 		case "notYet":
 			scr_text("Not yet...");
